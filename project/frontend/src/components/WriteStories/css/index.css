@@ -1,0 +1,51 @@
+div[contenteditable="true"] {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  margin: 20px;
+  min-height: 60vh;
+  border: 2px dashed lightgray;
+  padding: 20px;
+  font-size: 20px;
+  box-shadow: 2px 4px 20px 0px lightgrey;
+  background-color: #f7f7f7;
+}
+
+pre {
+  margin: 50px 20px;
+  overflow-y: auto;
+  border: 2px dashed lightgray;
+  padding: 10px;
+  min-height: 80px;
+  font-size: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 2px 4px 20px 0px lightgrey;
+  background-color: #f9f9f9;
+}
+
+.pub-button > button {
+  display: block;
+  margin: 20px auto;
+  padding: 15px 40px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.pub-button > button:hover {
+  background-color: #ff5722; /* Changed background color on hover to a noticeable shade of orange */
+  transform: scale(1.05); /* Added a slight scale-up effect */
+  box-shadow: 2px 4px 20px 0px rgba(255, 87, 34, 0.3); /* Added a subtle box shadow */
+  color: #ffffff; /* Changed text color on hover */
+}
